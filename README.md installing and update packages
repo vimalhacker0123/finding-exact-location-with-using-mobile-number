@@ -1,0 +1,38 @@
+Let’s install some basic packages. To install packages in termux, the command used is: pkg install
+
+Update and upgrade:
+pkg update
+pkg update && pkg upgrade
+Installing Python:
+pkg install python
+For Python2
+pkg install python2
+For Python3
+pkg install python3
+Installing pip:
+pkg install python-pip
+Installing Git:
+pkg install git
+Installing wget:
+pkg install wget
+Uninstalling Packages:
+pkg uninstall pkg-name
+List all install packages:
+pkg list-all
+
+Installing Deb files:
+You can similarly manage dpkg too. In case you’ve got a .deb file, you can’t install it using pkg install command. To install such a file, dpkg is used.
+Installing:
+dpkg -i ./package.deb
+Uninstalling:
+dpkg –remove [package name]
+Listing all installed packages:
+dpkg -l
+Rest of the commands are almost the same as basic Debian Linux command line.
+
+Graphical Environment setup:
+
+To enable GUI support in termux, make sure you’ve VNC viewer or Xserver support installed on your device. I’d suggest a VNC viewer. It’s stable and a better choice for GUI. For a better experience use any third party hardware acceleration app as there is no such support available in termux by default.
+As I mentioned above, the GUI support uses X11. The X11 packages are available in a separate repository. To enable X11 for GUI support run the following command:
+pkg install x11-repo
+And for further setup instructions, check this official wiki of termux.
