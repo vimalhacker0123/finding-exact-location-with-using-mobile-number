@@ -1,0 +1,65 @@
+# finding-exact-location-with-using-mobile-number
+How to finding exact location
+
+
+
+Hacking on Termux:
+Now let’s discuss how to use termux for Hacking. Termux allows you to install many useful hacking tools on your Android phone. These awesome hacking tools include Wireshark, Nmap, Metasploit framework, Sqlmap, etc. If I started covering all the tools, the article will become a booklet. That’s why I’ve going to share only the most used tools with the installation process.
+ 
+
+Top 5 best hacking tools for termux
+Installing the Metasploit framework on Termux:
+
+Metasploit is one of the best and most used hacking tools right now. It is a complete framework that finds vulnerabilities, finds exploits related to those vulnerabilities and other hacking works. To install the metasploit framework on your termux follow these commands:
+pkg install unstable-repo
+pkg install metasploit
+Installing Nmap:
+Nmap is a complete network mapping tool used for scanning ports and vulnerabilities in a network. To install Nmap simply use the following command:
+pkg install nmap
+Installing Hydra:
+Hydra is one of the best password cracking and brute-forcing tool. It supports different services like telnet, ssh, ftp, etc. To install hydra in termux use this command:
+pkg install hydra
+Installing SQLMAP:
+Sqlmap is a tool used to find and inject SQL injection vulnerabilities in a database/web application. The process of installing sqlmap is a little more complex because you can’t install it directly from the pkg install command. Here is the installation process:
+Update
+
+pkg update
+Install Python2
+
+pkg install python2
+Install Git
+
+pkg install git
+Clone sqlmap git repository:
+
+git clone https://github.com/sqlmapproject/sqlmap.git
+Now list all the directories in the current location and change to the sqlmap directory
+
+ls (to list all directories)
+cd sqlmap (if you find the sqlmap directory in the list then type this command)
+Now find sqlmap.py and run it
+
+ls (to list all directories/files to find sqlmap)
+python2 sqlmap.py (to run the sqlmap.py script)
+That’s it. Now you can use sqlmap.
+Installing Tool X to get 200+ hacking tools in termux:
+Tool-X is a python script which includes about 260+ hacking tools available in Kali Linux. This script can help you install most of these tools. But before proceeding, let me tell you I haven’t used this script so I don’t know the accuracy of it. So if it doesn’t work try to install the tools manually. Here is how to install Tool X:
+Update, install git (if you haven’t installed git package, skip this if you’re already done this)
+Clone the git repository of Tool X
+
+git clone https://github.com/Rajkumrdusad/Tool-X.git
+Now move to Tool-X directory using the cd command
+Use the python install.py command to install the tool. If it doesn’t work
+Run chmod +x install.aex
+Run
+
+./install.aex
+Or sh install.aex
+Done!
+Termux
+
+Termux is a Linux Terminal Emulator application for Android. A terminal emulator is a program that allows the user to access the command line interface (CLI) in a graphical environment. If you’ve studied the basics of computer, you must know about the shell and Command line Interface. If not here is a short definition of shells for you to clear your concept.
+
+Hacking on Termux:	
+ 
+	Now let’s discuss how to use termux for Hacking. Termux allows you to install many useful hacking tools on your Android phone. These awesome hacking tools include Wireshark, Nmap, Metasploit framework, Sqlmap, etc. If I started covering all the tools, the article will become a booklet. That’s why I’ve going to share only the most used tools with the installation process.
