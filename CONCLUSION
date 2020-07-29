@@ -1,0 +1,15 @@
+CONCLUSION:
+
+This is an future planning of finding victim mobile number pinpoint location for using 
+TERMUX Application 
+This is an best way for find out the victim exact location\
+Each host must share IP network space. Practically, this means that each host should have the 
+same network address
+Each host must have a unique IP address.
+Neither host must block the other’s IP packets. (Host based packet filtering may hinder 
+connections)
+This is concludes the tour of basic host networking and IP layer configuration as well as some 
+basic tools available to the linux user. For further documentation on these tools, other tips, 
+tricks, and more advanced content, keep reading.
+Technicallly, the two hosts simply need to have routes to each other, but we are discussing 
+the simplest case here, so we”ll leave this for a discussion of shared media.
