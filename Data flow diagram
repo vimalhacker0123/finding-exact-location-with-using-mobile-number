@@ -1,0 +1,32 @@
+Data flow diagram
+
+SENDER:
+
+A sender is someone who caused sometimes to be sent to a recipient. An 
+example of a sender is the person who put a letter in the mailbox and termux.
+A sender is a device that originates, or generates, an information transfer to one 
+or more receivers.
+In the communication process the sender, sometimes called the communicator.
+
+RECIEVER:
+
+Acknowledgement (ACK) Acknowledgements are small messages that 
+the receiver sends back, to tell the sender it received a message. The sender then 
+knows it doesn't need to retransmit, and is ready to send the next message
+
+SENDER SERVEO:
+
+ngrok is a cross-platform application that enables developers to expose a 
+local development server to the Internet with minimal effort. The software makes 
+your locally-hosted web server appear to be hosted on a subdomain of ngrok.com, 
+meaning that no public IP or domain name on the local machine is needed.
+Seeker, the Secret Agent of Web Applications
+It is an Interactive Application Software Testing (IAST) tool, which means it examines 
+your target application while it is running, watching how data moves through the 
+application.
+
+ACKNOWLEDGEMENT:
+
+Acknowledgements and negative acknowledgements inform a sender of the 
+receiver's state so that it can adjust its own state accordingly. Oftentimes, data 
+messages.
